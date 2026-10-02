@@ -1,0 +1,77 @@
+{
+  "weekly_screen": {
+    "last_week_upwind_hours": 6,
+    "last_week_total_hours": 40,
+    "upwind_locked_in_calendar": false,
+    "upwind_in_peak_energy": false,
+    "tasks_screened": [
+      {"name": "处理 12 个紧急工单", "class": "fast"},
+      {"name": "参加 5 个例会", "class": "fast"},
+      {"name": "写周报交差", "class": "fast"},
+      {"name": "整理销售数据", "class": "semi_asset", "asset_output": ""}
+    ]
+  },
+  "reverse_questions": {
+    "applied_to_new_tasks": false,
+    "task_cards": [
+      {
+        "name": "目标：做一件伟大的事",
+        "q1_hard": true,
+        "q1_ref_frame": "",
+        "q2_still_valid_3y": true,
+        "q2_need_type": "这个行业很有前景",
+        "q3_next_steps": ["能交付了"]
+      }
+    ]
+  },
+  "slow_fast_ledger": {
+    "slow_items": [
+      {
+        "name": "学底层能力",
+        "concrete": false,
+        "weekly_hours": 0,
+        "quarterly_evidence": "在积累，还没到出活的时候",
+        "exit_criteria": ""
+      },
+      {
+        "name": "长期项目 A",
+        "concrete": true,
+        "weekly_hours": 20,
+        "quarterly_evidence": "感觉在推进",
+        "exit_criteria": "看情况"
+      },
+      {
+        "name": "长期项目 B",
+        "concrete": true,
+        "weekly_hours": 18,
+        "quarterly_evidence": "还在等时机",
+        "exit_criteria": ""
+      }
+    ],
+    "fast_capacity_capped": false,
+    "buffer_reserved": false,
+    "slow_sacrificed_this_week": 10
+  },
+  "gap_notes": {
+    "entry_this_week": 5,
+    "entry_format_ok": false,
+    "weekly_review_done": false,
+    "recurrence_ge3": [
+      {
+        "pattern": "某用户抱怨过一次导出乱码",
+        "occurrences": 1,
+        "escalated": null
+      }
+    ]
+  },
+  "quarterly_check": {
+    "done_this_quarter": false,
+    "slow_moved_forward": false,
+    "evidence_type": "在积累",
+    "reverse_questions_rechecked": false
+  },
+  "fun_calibration": {
+    "last_month_want_to_dig": false,
+    "consecutive_no_months": 3
+  }
+}

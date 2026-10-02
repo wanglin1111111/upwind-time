@@ -1,0 +1,91 @@
+{
+  "weekly_screen": {
+    "last_week_upwind_hours": 14,
+    "last_week_total_hours": 40,
+    "upwind_locked_in_calendar": true,
+    "upwind_in_peak_energy": true,
+    "tasks_screened": [
+      {"name": "把 X 系统核心链路吃透并写拆解", "class": "upwind"},
+      {"name": "客户 A 紧急需求交付", "class": "fast"},
+      {"name": "整理销售数据", "class": "semi_asset", "asset_output": "数据口径文档 v2"},
+      {"name": "周会纪要", "class": "fast"}
+    ]
+  },
+  "reverse_questions": {
+    "applied_to_new_tasks": true,
+    "task_cards": [
+      {
+        "name": "慢仓项目：X 系统核心链路拆解",
+        "q1_hard": true,
+        "q1_ref_frame": "该领域资深工程师（做了 3 年 X 系统的人也会卡在调度层）",
+        "q2_still_valid_3y": true,
+        "q2_need_type": "结构性（底层系统认知需求随系统规模上升，非风口）",
+        "q3_next_steps": [
+          "可迁移拆解方法用于 Y 系统",
+          "团队新人用拆解文档上手，省下带教时间",
+          "发现可复用的中间层组件，独立成可复用资产"
+        ]
+      },
+      {
+        "name": "新任务：竞品定价模型分析",
+        "q1_hard": true,
+        "q1_ref_frame": "做过定价分析的同行（需要数据+建模组合，非纯拉数）",
+        "q2_still_valid_3y": true,
+        "q2_need_type": "结构性（定价决策每年都要做，结构性需求）",
+        "q3_next_steps": [
+          "定价模型变成季度可调用的决策工具",
+          "模型方法迁移到相邻产品线",
+          "基于模型的客户分层谈判策略"
+        ]
+      }
+    ]
+  },
+  "slow_fast_ledger": {
+    "slow_items": [
+      {
+        "name": "X 系统核心链路拆解",
+        "concrete": true,
+        "weekly_hours": 8,
+        "quarterly_evidence": "本季度能解释 X 系统调度层的三层机制，产出拆解文档 v1（E3），并能回答'为什么调度层这样设计'（E1）",
+        "exit_criteria": "连续两季度无 E1/E2/E3 证据，或三问重验 Q2/Q3 挂"
+      },
+      {
+        "name": "可复用提示词资产库（工作流类）",
+        "concrete": true,
+        "weekly_hours": 6,
+        "quarterly_evidence": "新增 ≥5 条经验证的提示词资产，其中 ≥2 条被复用 ≥3 次（E3 复用次数可数）",
+        "exit_criteria": "连续两季度无新增验证资产，或资产复用率持续为 0"
+      }
+    ],
+    "fast_capacity_capped": true,
+    "buffer_reserved": true,
+    "slow_sacrificed_this_week": 0
+  },
+  "gap_notes": {
+    "entry_this_week": 3,
+    "entry_format_ok": true,
+    "weekly_review_done": true,
+    "recurrence_ge3": [
+      {
+        "pattern": "排期总是排满无缓冲导致延期，但没有人对'总是延期'负责",
+        "occurrences": 4,
+        "escalated": true
+      },
+      {
+        "pattern": "三个用户都说'找不到入口'，但入口就在原处（心智模型错位）",
+        "occurrences": 3,
+        "escalated": true
+      }
+    ]
+  },
+  "quarterly_check": {
+    "done_this_quarter": true,
+    "slow_moved_forward": true,
+    "evidence_type": "E3 产出 X 系统调度层拆解文档 v1 + E1 看懂调度层三层机制（能回答'为什么这样设计'）",
+    "reverse_questions_rechecked": true
+  },
+  "fun_calibration": {
+    "last_month_want_to_dig": true,
+    "consecutive_no_months": 0
+  }
+}
